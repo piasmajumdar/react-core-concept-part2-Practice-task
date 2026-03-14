@@ -3,6 +3,7 @@ import './App.css'
 import Task1 from './Task1'
 import Task2 from './Task2'
 import Task3 from './Task3'
+import Task32 from './Task32'
 
 
 const fetchUsers = async () => {
@@ -19,9 +20,11 @@ function App() {
     <>
       <Task1></Task1>
       <Task2></Task2>
-      <Suspense fallback={<p className='card'>Users are loading...</p>}>
+      {/* <Suspense fallback={<p className='card'>Users are loading...</p>}>
         <Task3 usersPromise={usersPromise}></Task3>
-      </Suspense>
+      </Suspense> */}
+      
+      <Task32></Task32>
     </>
   )
 }
