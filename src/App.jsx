@@ -1,11 +1,12 @@
 import './App.css'
+import Task1 from './Task1'
 
 function App() {
 
 
   return (
     <>
-      <h3>Task-1</h3>
+      <Task1></Task1>
     </>
   )
 }
